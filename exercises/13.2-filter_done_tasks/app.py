@@ -12,4 +12,8 @@ tasks = [
 
 
 #Your code go here:
-
+def filtering(ar):
+        return ar["done"] is True
+        
+resulting_names = list(filter(filtering, tasks))
+print(resulting_names)

@@ -7,3 +7,11 @@ names = ['Liam','Emma','Noah','Olivia','William','Ava','James','Isabella','Logan
 
 
 #Your code go here:
+def gdm(string):
+        if "am" in string:
+            return True
+        else:
+            return False
+
+gfdm = list(filter(gdm,names))
+print(gfdm)
